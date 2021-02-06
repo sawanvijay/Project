@@ -27,6 +27,7 @@ public class SparkJavaTest {
     	System.setProperty("hadoop.home.dir", "C:/winutils");
     	
    	 Logger.getLogger("org").setLevel(Level.ERROR);
+	    Logger.getLogger("org").setLevel(Level.WARN);
    	 
    	 
  	final SparkSession  spark = SparkSession
